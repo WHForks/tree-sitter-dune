@@ -1,3 +1,2 @@
 .direnv/
-src/
-package.json
+.DS_Store
