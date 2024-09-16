@@ -17,6 +17,7 @@
           nativeBuildInputs = with pkgs; [
             nodePackages.prettier
             tree-sitter
+            nodejs
           ];
         };
         packages.default = pkgs.tree-sitter.buildGrammar {
